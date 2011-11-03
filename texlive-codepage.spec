@@ -1,3 +1,9 @@
+# revision 21126
+# category Package
+# catalog-ctan /macros/latex/contrib/codepage
+# catalog-date 2011-01-18 23:40:40 +0100
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-codepage
 Version:	20110118
 Release:	1
@@ -56,6 +62,7 @@ LaTeX distribution.
 %doc %{_texmfdistdir}/source/latex/codepage/codepage.dtx
 %doc %{_texmfdistdir}/source/latex/codepage/codepage.ins
 %doc %{_texmfdistdir}/source/latex/codepage/frintro.drv
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -66,3 +73,5 @@ LaTeX distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
