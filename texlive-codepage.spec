@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-codepage
 Version:	20110118
-Release:	7
+Release:	8
 Summary:	Support for variant code pages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/codepage
