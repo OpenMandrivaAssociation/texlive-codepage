@@ -45,7 +45,6 @@ LaTeX distribution.
 %doc %{_texmfdistdir}/doc/latex/codepage/LISEZMOI
 %doc %{_texmfdistdir}/doc/latex/codepage/README
 %doc %{_texmfdistdir}/doc/latex/codepage/codepage.pdf
-%doc %{_texmfdistdir}/doc/latex/codepage/demo.zip
 %doc %{_texmfdistdir}/doc/latex/codepage/frintro.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/codepage/codepage.drv
