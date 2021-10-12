@@ -46,6 +46,8 @@ LaTeX distribution.
 %doc %{_texmfdistdir}/doc/latex/codepage/README
 %doc %{_texmfdistdir}/doc/latex/codepage/codepage.pdf
 %doc %{_texmfdistdir}/doc/latex/codepage/frintro.pdf
+%doc %{_texmfdistdir}/doc/latex/codepage/voyel850.tex
+%doc %{_texmfdistdir}/doc/latex/codepage/voyeliso.tex
 #- source
 %doc %{_texmfdistdir}/source/latex/codepage/codepage.drv
 %doc %{_texmfdistdir}/source/latex/codepage/codepage.dtx
@@ -61,18 +63,3 @@ LaTeX distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110118-2
-+ Revision: 750333
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110118-1
-+ Revision: 718091
-- texlive-codepage
-- texlive-codepage
-- texlive-codepage
-- texlive-codepage
-- texlive-codepage
-
