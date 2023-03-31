@@ -1,6 +1,6 @@
 Name:		texlive-codepage
 Version:	51502
-Release:	1
+Release:	2
 Summary:	Support for variant code pages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/codepage
