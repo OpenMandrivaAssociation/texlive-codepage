@@ -3,7 +3,7 @@ Version:	51502
 Release:	2
 Summary:	Support for variant code pages
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/codepage
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/codepage
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/codepage.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/codepage.doc.r%{version}.tar.xz
